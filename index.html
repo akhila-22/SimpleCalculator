@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<body>
+    <div class="calci">
+        <h1>Simple Calculator</h1>
+        <table>
+           <tr>
+                <td colspan="3"><input type="text" id="ans"></td>
+                <td><input type="button" value="clr" onclick="clearr()"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="1" onclick="dissplayy('1');"></td>
+                <td><input type="button" value="2" onclick="dissplayy('2');"></td>
+                <td><input type="button" value="3" onclick="dissplayy('3');"></td>
+                <td><input type="button" value="/" onclick="dissplay('/');incre();"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" onclick="dissplayy('4');"></td>
+                <td><input type="button" value="5" onclick="dissplayy('5');"></td>
+                <td><input type="button" value="6" onclick="dissplayy('6');" ></td>
+                <td><input type="button" value="*" onclick="dissplay('*');incre();"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7" onclick="dissplayy('7');"></td>
+                <td><input type="button" value="8" onclick="dissplayy('8');"></td>
+                <td><input type="button" value="9" onclick="dissplayy('9');"></td>
+                <td><input type="button" value="+" onclick="dissplay('+');incre();"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="." onclick="dissplay('.');incre();"></td>
+                <td><input type="button" value="0" onclick="dissplayy('0');"></td>
+                <td><input type="button" value="=" onclick="results()"></td>
+                <td><input type="button" value="-" onclick="dissplay('-');incre();"></td>
+            </tr>
+            
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
